@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#152333">
+  <title>暮岸 · A quiet moment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="world" aria-label="可拖动旋转的暮色海岸三维场景"></main>
+  <div id="loading"><span class="loading-mark">暮岸</span><span>正在等一阵海风</span><i></i></div>
+  <div class="vignette" aria-hidden="true"></div>
+  <header class="ui header">
+    <a class="brand" href="./index.html" aria-label="暮岸首页"><span class="brand-mark">暮岸<span class="brand-dot">.</span></span><span class="brand-en">SLOW TIDES · QUIET NIGHTS</span></a>
+    <div class="top-actions"><span class="time"><i></i><span id="time-label">蓝调时刻 · 18:42</span></span><button id="sound" class="icon-button" aria-label="开启海浪声" title="开启海浪声"><svg viewBox="0 0 24 24"><path d="M4 10v4h4l5 4V6l-5 4H4Z"/><path class="sound-off" d="m17 9 5 6m0-6-5 6"/><path class="sound-on" d="M17 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/></svg></button></div>
+  </header>
+  <section class="ui caption"><div class="eyebrow"><span></span> A PLACE TO JUST BE</div><h1>把时间，<br>留给海。</h1><p>一壶热茶，两张藤椅。<br>在晚霞与海风之间，慢下来。</p></section>
+  <aside class="ui atmosphere" id="atmosphere" hidden>
+    <div class="panel-title">此刻的海岸 <button id="close-panel" aria-label="关闭氛围设置">×</button></div>
+    <label for="dusk">天色 <span id="dusk-value">日暮</span></label><input id="dusk" type="range" min="0" max="1" step="0.01" value="0.16"><div class="range-ends"><span>余晖</span><span>入夜</span></div>
+    <label for="waves">海风 <span id="waves-value">微风</span></label><input id="waves" type="range" min="0.25" max="1.6" step="0.01" value="0.85">
+    <label for="quality">画质 <span id="quality-value">自动适配</span></label><select id="quality" aria-label="画面质量"><option value="auto">自动适配</option><option value="high">精细</option><option value="balanced">均衡</option><option value="low">流畅</option></select>
+    <p>灯火随夜色渐暖，海浪随风起伏。</p>
+  </aside>
+  <footer class="ui footer"><div class="location"><span class="coordinate">35° N &nbsp; / &nbsp; 139° E</span><span class="location-name">想象中的海岸 · 此刻无需抵达</span></div>
+    <nav class="controls" aria-label="场景控制"><div class="view-switch"><button id="view-wide" class="active" aria-pressed="true">海岸全景</button><button id="view-deck" aria-pressed="false">露台时光</button></div><span class="divider"></span><button id="settings" class="icon-button" title="氛围设置" aria-label="氛围设置" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 17h16M8 4v6m8 4v6"/></svg></button><button id="pause" class="icon-button" title="暂停画面（空格）" aria-label="暂停画面"><svg viewBox="0 0 24 24"><path id="pause-symbol" d="M9 6v12m6-12v12"/></svg></button><button id="fullscreen" class="icon-button" title="全屏" aria-label="全屏"><svg viewBox="0 0 24 24"><path d="M8 4H4v4m12-4h4v4M4 16v4h4m12-4v4h-4"/></svg></button></nav>
+    <label class="interior-views" for="view-interior"><span>走进木屋</span><select id="view-interior" aria-label="室内视角"><option value="">选择室内视角</option><option value="room">卧室与工作区 · 3</option><option value="bedsea">床边看海 · 4</option><option value="plan">去屋顶俯视 · 5</option></select></label>
+    <span class="hint">拖动环顾 · 滚轮靠近 <span>H 隐藏界面 · 1–5 切换视角</span></span>
+  </footer>
+  <div id="toast" role="status"></div>
+  <div id="graphics-status" hidden role="status"><span id="graphics-message">正在恢复画面…</span><button onclick="location.reload()">重新载入</button></div>
+  <div id="error" hidden><h2>海岸暂时没有展开</h2><p id="error-detail">请使用支持 WebGL 的浏览器，并开启浏览器图形加速。</p><button onclick="location.reload()">重新进入</button></div>
+  <script src="vendor/three.min.js"></script>
+  <script src="quality.js"></script>
+  <script src="assets.js"></script>
+  <script src="nature-assets.js"></script>
+  <script src="coast-assets.js"></script>
+  <script src="ocean.js"></script>
+  <script src="terrain.js"></script>
+  <script src="post.js"></script>
+  <script src="softgoods.js"></script>
+  <script src="interior.js"></script>
+  <script src="scene.js"></script>
+</body>
+</html>

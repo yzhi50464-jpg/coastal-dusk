@@ -1,0 +1,162 @@
+{
+  "provenance": {
+    "asset": "Poly Haven Fern 02",
+    "source": "https://polyhaven.com/a/fern_02",
+    "license": "CC0 1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "legalCode": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "authors": [
+      {
+        "name": "Rico Cilliers",
+        "role": "Modeling"
+      },
+      {
+        "name": "Rob Tuytel",
+        "role": "Scanning"
+      }
+    ],
+    "conversion": "Original source mesh separated by complete plant; world transforms baked; Y-up, centered X/Z and normalized to unit height. Original 1K diffuse/alpha/GL normal maps embedded unchanged.",
+    "tool": "Blender 5.2.3 LTS",
+    "originalCreator": false
+  },
+  "variants": [
+    {
+      "name": "fern_02_a",
+      "vertices": 536,
+      "triangles": 784,
+      "bounds": [
+        [
+          -0.9622277,
+          0.0,
+          -1.0694099
+        ],
+        [
+          0.9622277,
+          1.0,
+          1.0694099
+        ]
+      ],
+      "originalBoundsYUp": [
+        [
+          -0.2976572513580322,
+          -0.028773518279194832,
+          0.6887320280075073
+        ],
+        [
+          0.2542833685874939,
+          0.2580300271511078,
+          1.3021531105041504
+        ]
+      ],
+      "originalHeightMeters": 0.2868035454303026
+    },
+    {
+      "name": "fern_02_b",
+      "vertices": 1640,
+      "triangles": 2384,
+      "bounds": [
+        [
+          -1.1570723,
+          0.0,
+          -1.0447753
+        ],
+        [
+          1.1570723,
+          1.0,
+          1.0447753
+        ]
+      ],
+      "originalBoundsYUp": [
+        [
+          -0.528143048286438,
+          -0.030510280281305313,
+          -0.4218750596046448
+        ],
+        [
+          0.46160435676574707,
+          0.39718443155288696,
+          0.47181466221809387
+        ]
+      ],
+      "originalHeightMeters": 0.4276947118341923
+    },
+    {
+      "name": "fern_02_c",
+      "vertices": 1548,
+      "triangles": 2248,
+      "bounds": [
+        [
+          -1.2525427,
+          0.0,
+          -1.0962479
+        ],
+        [
+          1.2525427,
+          1.0,
+          1.0962479
+        ]
+      ],
+      "originalBoundsYUp": [
+        [
+          0.5700613856315613,
+          -0.028773672878742218,
+          -0.4172819256782532
+        ],
+        [
+          1.4443871974945068,
+          0.32024669647216797,
+          0.3479437530040741
+        ]
+      ],
+      "originalHeightMeters": 0.3490203693509102
+    },
+    {
+      "name": "fern_02_d",
+      "vertices": 561,
+      "triangles": 816,
+      "bounds": [
+        [
+          -1.3440066,
+          0.0,
+          -1.3920998
+        ],
+        [
+          1.3440066,
+          1.0,
+          1.3920998
+        ]
+      ],
+      "originalBoundsYUp": [
+        [
+          0.7092198133468628,
+          -0.013578944839537144,
+          0.6478629112243652
+        ],
+        [
+          1.2820019721984863,
+          0.19950860738754272,
+          1.2411412000656128
+        ]
+      ],
+      "originalHeightMeters": 0.21308755222707987
+    }
+  ],
+  "totalSourceTriangles": 6232,
+  "worstCaseThreePlantsTriangles": 7152,
+  "textureDimensions": {
+    "diffuse": [
+      1024,
+      1024
+    ],
+    "alpha": [
+      1024,
+      1024
+    ],
+    "normal": [
+      1024,
+      1024
+    ]
+  },
+  "generatedJavaScriptBytes": 1303347,
+  "generatedJavaScriptSHA256": "8476535fbc871b50ccb0849fea6bf1efcdec5f5327eb0bf769180ef54743d91b"
+}

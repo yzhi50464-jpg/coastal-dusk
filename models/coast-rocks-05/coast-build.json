@@ -1,0 +1,122 @@
+{
+  "provenance": {
+    "asset": "Coast Rocks 05",
+    "author": "Rob Tuytel",
+    "source": "https://polyhaven.com/a/coast_rocks_05",
+    "license": "CC0 1.0",
+    "licenseURL": "https://polyhaven.com/license",
+    "legalCode": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "conversion": "Coincident glTF seam vertices welded before local Blender collapse reduction to approximately 11K triangles; smooth normals rebuilt, per-loop UV atlas retained; Y-up, X/Z centered, bottom Y=0, uniformly normalized to official 3.03639m width. Diffuse 1K, normal/ARM 512 JPEG; no color/gamma conversion on data maps.",
+    "tool": "Blender 5.2.3 LTS",
+    "originalCreator": false
+  },
+  "originalTriangles": 771724,
+  "triangles": 10999,
+  "vertices": 7747,
+  "bounds": [
+    [
+      -1.5181953,
+      0.0,
+      -1.4099317
+    ],
+    [
+      1.5181953,
+      0.99738,
+      1.4099317
+    ]
+  ],
+  "dimensionsMeters": [
+    3.0363906,
+    0.99738,
+    2.8198634
+  ],
+  "originalBoundsBlender": [
+    [
+      -1.8513977527618408,
+      -1.6456700563430786,
+      -0.2534611225128174
+    ],
+    [
+      2.187288522720337,
+      2.1019794940948486,
+      1.077225685119629
+    ]
+  ],
+  "originalToRuntimeOriginYUp": [
+    0.1688023805618286,
+    -0.24637767672538757,
+    -0.22755217552185059
+  ],
+  "normalizationScale": 0.7525076457351662,
+  "weldedCoincidentVertices": 14898,
+  "textures": {
+    "diffuse": {
+      "source": "original/textures/coast_rocks_05_diff_1k.jpg",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "path": "processed/diffuse-1024.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "quality": 88,
+      "jpegChromaSubsampling": "4:4:4",
+      "colorTransform": "none; direct RGB channel resampling",
+      "meanAbsoluteCompressionErrorPerChannel255": [
+        3.046257972717285,
+        2.9286060333251953,
+        3.189542770385742
+      ],
+      "bytes": 407857,
+      "sha256": "aa69467e1d645d49c4af20599baa09b76a812b2ecc22df31f2dc8ed81779b2c1"
+    },
+    "normal": {
+      "source": "original/textures/coast_rocks_05_nor_gl_1k.jpg",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "path": "processed/normal-512.jpg",
+      "size": [
+        512,
+        512
+      ],
+      "quality": 97,
+      "jpegChromaSubsampling": "4:4:4",
+      "colorTransform": "none; direct RGB channel resampling",
+      "meanAbsoluteCompressionErrorPerChannel255": [
+        2.0201950073242188,
+        1.3796730041503906,
+        2.3684921264648438
+      ],
+      "bytes": 406136,
+      "sha256": "8420df846e9069addc90186e6501bf0e1337a32896c2eebcf485406814f0ba0d"
+    },
+    "arm": {
+      "source": "original/textures/coast_rocks_05_arm_1k.jpg",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "path": "processed/arm-512.jpg",
+      "size": [
+        512,
+        512
+      ],
+      "quality": 93,
+      "jpegChromaSubsampling": "4:4:4",
+      "colorTransform": "none; direct RGB channel resampling",
+      "meanAbsoluteCompressionErrorPerChannel255": [
+        3.8767166137695312,
+        2.075244903564453,
+        2.0322189331054688
+      ],
+      "bytes": 172035,
+      "sha256": "e0d472f1f7c8f711f77e09cfc29d838e51fc6554c798628ba30c15c987d942cb"
+    }
+  },
+  "generatedJavaScriptBytes": 1740035,
+  "generatedJavaScriptSHA256": "06bc925222e3c8bee2acba4c485486543eb569b1b4c26d1f401469727120c239"
+}

@@ -1,0 +1,52 @@
+{
+  "asset": "Coast Rocks 05",
+  "source": "https://polyhaven.com/a/coast_rocks_05",
+  "api": "https://api.polyhaven.com/files/coast_rocks_05",
+  "author": "Rob Tuytel",
+  "license": "CC0 1.0",
+  "licenseURL": "https://polyhaven.com/license",
+  "legalCode": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "downloadedUTC": "2026-10-24T04:08:39.0188471Z",
+  "files": [
+    {
+      "path": "original/coast_rocks_05_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/coast_rocks_05/coast_rocks_05_1k.gltf",
+      "bytes": 2821,
+      "officialMD5": "4d4e9186fe053d2385913fd2bf7eddd9",
+      "downloadedMD5": "4d4e9186fe053d2385913fd2bf7eddd9",
+      "sha256": "4b5e97d42b4d9e1999ee5961922adc6b5d81f4aad34219915def7975bb2a8eb7"
+    },
+    {
+      "path": "original/coast_rocks_05.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/coast_rocks_05/coast_rocks_05.bin",
+      "bytes": 22102224,
+      "officialMD5": "9d4e639dd13128e96335a5d9828b3f47",
+      "downloadedMD5": "9d4e639dd13128e96335a5d9828b3f47",
+      "sha256": "c46b19d62dd5d42d5f03bc7508e22fdc00ec88fa197b4fdf8db8e40929ea13cc"
+    },
+    {
+      "path": "original/textures/coast_rocks_05_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/coast_rocks_05/coast_rocks_05_diff_1k.jpg",
+      "bytes": 954605,
+      "officialMD5": "f2b66bad46855efa031e21aa392f4349",
+      "downloadedMD5": "f2b66bad46855efa031e21aa392f4349",
+      "sha256": "2ec4ec09422a14d55cc890ad902486cf76df8e663688fbc32f78a15684646ee1"
+    },
+    {
+      "path": "original/textures/coast_rocks_05_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/coast_rocks_05/coast_rocks_05_nor_gl_1k.jpg",
+      "bytes": 1327762,
+      "officialMD5": "e5f4c65b6fafd54885044cb25a783265",
+      "downloadedMD5": "e5f4c65b6fafd54885044cb25a783265",
+      "sha256": "5d32e03ea42abc05dd913e7ead4e915d9d60f27c8942f75128a87f84e7baee9d"
+    },
+    {
+      "path": "original/textures/coast_rocks_05_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/coast_rocks_05/coast_rocks_05_arm_1k.jpg",
+      "bytes": 893696,
+      "officialMD5": "e1254e9d26745f5d06e7a266a1231360",
+      "downloadedMD5": "e1254e9d26745f5d06e7a266a1231360",
+      "sha256": "26b851f13a6e00500440d964393bee8aa1865660777c05b9082bdb12c43a23b6"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "provenance": {
+    "tool": "5.2.3 LTS",
+    "clothFrames": 65,
+    "artDirectedFolds": 6,
+    "source": "Original local Blender cloth simulation, six art-directed slack folds, modeled pillow and folded header; no external models",
+    "coordinates": "Three.js Y up, bed-local"
+  },
+  "meshes": {
+    "quilt": {
+      "vertices": 31218,
+      "triangles": 62432,
+      "bounds": [
+        [
+          -1.683755,
+          0.178154,
+          -0.876292
+        ],
+        [
+          1.646768,
+          1.014548,
+          2.096057
+        ]
+      ]
+    },
+    "pillow": {
+      "vertices": 2378,
+      "triangles": 4752,
+      "bounds": [
+        [
+          -0.5,
+          -0.498,
+          -0.5
+        ],
+        [
+          0.5,
+          0.467036,
+          0.5
+        ]
+      ]
+    },
+    "turnback": {
+      "vertices": 3250,
+      "triangles": 6496,
+      "bounds": [
+        [
+          -1.417517,
+          0.759837,
+          -0.910818
+        ],
+        [
+          1.417405,
+          1.111162,
+          -0.368413
+        ]
+      ]
+    }
+  }
+}
